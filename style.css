@@ -1,0 +1,12 @@
+.square {
+	width: 100px;
+	height: 100px;
+	background: firebrick;
+}
+
+.container {
+	width: 80%;
+	overflow: hidden;
+	padding: 200px;
+	margin: auto;
+}

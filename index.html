@@ -9,9 +9,25 @@
 
 	<div class="container">
 		<div class="square"></div>
+		<button onclick="reShape();">Animate</button>
 	</div>
 	
-	<script type="text/javascript" src="anime.min.js"></script>
-	
+	<script src="anime.min.js"></script>	
+
+	<script type="text/javascript">
+		function reShape() {
+			anime({
+			  targets: '.square',
+			  right: '240px',
+			  backgroundColor: '#98fb98',
+			  borderRadius: ['200px'],
+			  easing: 'linear',
+			  translateX: '400px',
+			  autoplay: 'false',
+			  loop: 'true'
+			});
+		}
+	</script>
+
 </body>
 </html>

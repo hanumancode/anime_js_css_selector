@@ -1,6 +1,6 @@
 .square {
-	width: 100px;
-	height: 100px;
+	width: 200px;
+	height: 200px;
 	background: firebrick;
 }
 
@@ -9,4 +9,17 @@
 	overflow: hidden;
 	padding: 200px;
 	margin: auto;
+}
+
+button {
+	width: 120px;
+	height: 50px;
+	background: #000;
+	margin-top: 90px;
+	border-radius: 100px;
+	border: 0px;
+	font-size: 20px;
+	color: lightblue;
+	position: relative;
+	
 }
